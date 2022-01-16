@@ -9,7 +9,7 @@ public class PossibleValueAdapter implements JsonbAdapter<PossibleValue, String>
     }
 
     @Override
-    public PossibleValue adaptFromJson(final String possibleValue) throws Exception {
+    public PossibleValue adaptFromJson(final String possibleValue) {
         for (final PossibleValue value : PossibleValue.values()) {
             if (possibleValue.equalsIgnoreCase(value.name())) {
                 return value;

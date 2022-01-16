@@ -7,7 +7,7 @@ public enum PossibleValue {
     Unknown,
     Charlie,
     Echo,
-    Bravo;
+    Bravo
 
 
 }
